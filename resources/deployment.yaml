@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: testapi111
+        app: testapi11144
     spec:
       containers:
         - image: olehzahnitko/argocd:1.1.17
