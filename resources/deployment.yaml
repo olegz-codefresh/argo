@@ -7,11 +7,11 @@ spec:
   revisionHistoryLimit: 4
   selector:
     matchLabels:
-      app: testapi
+      app: testapi111
   template:
     metadata:
       labels:
-        app: testapi
+        app: testapi111
     spec:
       containers:
         - image: olehzahnitko/argocd:1.1.17
