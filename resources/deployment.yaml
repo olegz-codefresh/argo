@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: testapi111
+  name: testapi-nazar
 spec:
   replicas: 3
   revisionHistoryLimit: 4
   selector:
     matchLabels:
-      app: testapi111
+      app: testapi-nazar
   template:
     metadata:
       labels:
-        app: testapi111442
+        app: testapi-nazar
     spec:
       containers:
         - image: olehzahnitko/argocd:1.1.17
-          name: testapi
+          name: testapi-nazar
           ports:
             - containerPort: 1700
