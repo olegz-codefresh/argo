@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: testapi-nazar
 spec:
-  replicas: 3
+  replicas: 2
   revisionHistoryLimit: 4
   selector:
     matchLabels:
@@ -14,7 +14,7 @@ spec:
         app: testapi-nazar
     spec:
       containers:
-        - image: nazarcodefresh/argo:5f463b22601dbbb67ee7af00
+        - image: nazarcodefresh/argo:master
           name: testapi-nazar
           ports:
             - containerPort: 1700
