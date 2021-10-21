@@ -1,0 +1,1 @@
+{"appName":"events-reporter","userGivenName":"events-reporter","destNamespace":"test-ws","destServer":"https://kubernetes.default.svc","srcPath":"apps/events-reporter/test-ws/resources","srcRepoURL":"https://github.com/olegz-codefresh/argo.git","srcTargetRevision":"","labels":{"codefresh_io_entity":"component"},"exclude":"","include":""}
