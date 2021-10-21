@@ -1,0 +1,1 @@
+{"appName":"default-git-source","userGivenName":"default-git-source","destNamespace":"test-ws","destServer":"https://kubernetes.default.svc","srcPath":"resources_test-ws","srcRepoURL":"https://github.com/olegz-codefresh/argo_git-source.git","srcTargetRevision":"","labels":{"codefresh_io_entity":"git-source"},"exclude":"","include":""}
