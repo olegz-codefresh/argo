@@ -1,0 +1,1 @@
+{"appName":"workflows","userGivenName":"workflows","destNamespace":"my-ws","destServer":"https://kubernetes.default.svc","srcPath":"apps/workflows/overlays/my-ws","srcRepoURL":"https://github.com/olegz-codefresh/argo.git","srcTargetRevision":"","labels":{"codefresh_io_entity":"component"}}
